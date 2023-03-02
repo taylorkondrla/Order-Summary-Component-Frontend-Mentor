@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main {
+    height: 500px;
+    width: 325px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 45px;
+}
+
+.main img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.3em;
+}
+
+.description {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 300;
+    font-size: .8em;
+    padding: 25px;
+}
+
+.subscription {
+    width: 275px;
+    height: 150px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.subscription img {
+    width: 12%;
+}
+
+.plpr {
+    display: grid;
+    float: left;
+    padding-right: 80px;
+}
+
+.plan {
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.price {
+    font-size: .8em;
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    float: right;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-size: .6em;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.cancel {
+  color: hsl(224, 23%, 55%);
+  font-size: .7em;
+  font-weight: bold;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    padding: 10px 75px 10px 75px;
+    margin-bottom: 25px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 2px 3px 8px hsl(245, 75%, 52%);
+    border-radius: 10px;
+    cursor: pointer;
+}
